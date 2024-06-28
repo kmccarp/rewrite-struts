@@ -28,8 +28,10 @@ public class FindStrutsXml extends Recipe {
 
     @Override
     public String getDescription() {
-        return "Struts XML files may have any name, and may be outside a resources directory, so " +
-               "the true test is to look at the content of the file.";
+        return """
+               Struts XML files may have any name, and may be outside a resources directory, so \
+               the true test is to look at the content of the file.\
+               """;
     }
 
     @Override
